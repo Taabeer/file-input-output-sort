@@ -17,10 +17,9 @@ Fail2Ban is a Java program designed to parse log files for invalid IP addresses 
    ```bash
    javac Fail2Ban.java
 ### Usage
-Execute the program with the following command, replace inputLogFile.txt with the path to the log file you want to analyze.
-Replace outputLogFile.txt with the desired filename for the output file.:
+Execute the program with the following command:
       ```bash
-  java Fail2Ban inputLogFile.txt outputLogFile.txt
+      java Fail2Ban inputLogFile.txt outputLogFile.txt
 ### Functionality
 The program reads the contents of the specified input log file.
 It identifies lines containing the keyword "Invalid" and extracts the corresponding IP addresses.
